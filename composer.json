@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "bytorsten/graphqltest",
+    "require": {
+        "neos/flow": "*",
+        "wwwision/graphql": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ByTorsten\\Test\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "ByTorsten.GraphQLTest"
+        }
+    }
+}
