@@ -2,8 +2,8 @@ Wwwision:
   GraphQL:
     endpoints:
       'graphql':
-        schema: 'resource://ByTorsten.Test/Private/GraphQL/schema.graphql'
-        resolverPathPattern: 'ByTorsten\Test\Resolver\{Type}Resolver'
+        schema: 'resource://ByTorsten.GraphQLTest/Private/GraphQL/schema.graphql'
+        resolverPathPattern: 'ByTorsten\GraphQLTest\Resolver\{Type}Resolver'
 #        resolvers:
 #          'Query': 'ByTorsten\Test\Resolver\QueryResolver'
 #          'Vehicle': 'ByTorsten\Test\Resolver\VehicleResolver'
